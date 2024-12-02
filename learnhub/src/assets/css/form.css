@@ -1,0 +1,97 @@
+    
+ .m- {
+    color: yellow;
+    font-size: 2rem;
+}
+.-s {
+    padding: 1rem;
+    color: black;
+    font-size: large;
+    font-weight: 700;
+}
+.flxcard12 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.i-p {
+    padding: 1rem;
+    font-size: large;
+
+}
+.h-- {
+    margin: 2rem;
+    font-size: 3rem;
+    text-align: center;
+}
+.flx-- {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.flx-- > div {
+    flex-basis: 45%;
+    margin: 1rem 1.5rem; 
+}
+.flx-- input {
+    height: 72px;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.-s {
+    height: 72px;
+    width: 100%;
+    border-radius: 15px;
+}
+.flxs---{
+    width: 90%;
+    margin: auto;
+    padding-inline: 5rem;
+    display: flex;
+    justify-content: end;
+}
+.flxs--- > input {
+    padding: 1rem 2rem;
+    margin: 1rem;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+@media  screen and (max-width:1100px) {
+    .flx--{
+        width: 100%;
+    }
+    .flx-- > div {
+        flex-basis: 40%;
+        margin: 1rem 1.5rem;
+}
+
+
+}
+@media  screen and (max-width:720px) {
+    .flx-- {
+        width: 100%;
+        justify-content: center;
+    }
+    .flx-- > div {
+        flex-basis: 80%;
+        margin: 1rem 1.5rem;
+}
+.flxs---{
+    justify-content: center;
+}
+}
+.flxcard12{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0rem;
+}
+
+@media screen and (max-width:1050px) {
+    
+    .flxcard12 {
+        justify-content: center;
+    }
+} 
